@@ -1,0 +1,66 @@
+{
+	"title": "czycha",
+	"layout": "base.pug",
+	"projects": [
+		{
+			"background": "/img/pxlsrt-header.png",
+			"title": "pxlsrt",
+			"description": "<span class='callout-word'>pxlsrt</span> is a long running project of mine, working on it when inspiration strikes. pxlsrt uses a generative art method called <em>pixel sorting</em> to create neat effects on images.",
+			"links": [
+				{
+					"title": "New Node.js version",
+					"href": "https://github.com/czycha/pxlsrt-cli"
+				},
+				{
+					"title": "Original Ruby version",
+					"href": "https://github.com/czycha/pxlsrt"
+				},
+				{
+					"title": "Other ports and derivatives",
+					"href": "https://github.com/czycha?tab=repositories&q=pxlsrt"
+				}
+			]
+		},
+		{
+			"background": "/img/acidity-header.png",
+			"title": "acidity",
+			"description": "<span class=\"callout-word\">acidity</span> was an excuse to try out the new Crystal language. It uses a very simple image modification algorithm to create interesting effects.",
+			"links": [
+				{
+					"title": "Crystal",
+					"href": "https://github.com/czycha/acidity"
+				},
+				{
+					"title": "Processing",
+					"href": "https://github.com/czycha/acidity-processing"
+				}
+			]
+		},
+		{
+			"background": false,
+			"title": "Nilbog",
+			"description": "<span class=\"callout-word\">Nilbog</span> started out as a \"what-if\" experiment. It uses mutation observers to revert DOM manipulation on a page. Its only real application is ad-blocking.",
+			"links": [
+				{
+					"title": "GitHub",
+					"href": "https://github.com/czycha/nilbog"
+				},
+				{
+					"title": "Medium article",
+					"href": "https://medium.com/@czycha/nilbog-how-to-create-a-more-immutable-web-cad7b9c71a8"
+				}
+			]
+		},
+		{
+			"background": false,
+			"title": "Alchemize",
+			"description": "<span class=\"callout-word\">Alchemize</span> is another mutation observer experiment in the same vein as Nilbog, although much simpler. Developers can use Alchemize to intercept newly added nodes and perform actions on them or trigger simple reactions.",
+			"links": [
+				{
+					"title": "GitHub",
+					"href": "https://github.com/czycha/alchemize"
+				}
+			]
+		}
+	]
+}

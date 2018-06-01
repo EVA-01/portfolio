@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		title #{title}
+		link(rel='apple-touch-icon', sizes='180x180', href='/apple-touch-icon.png')
+		link(rel='icon', type='image/png', sizes='32x32', href='/favicon-32x32.png')
+		link(rel='icon', type='image/png', sizes='16x16', href='/favicon-16x16.png')
+		link(rel='manifest', href='/site.webmanifest')
+		link(rel='mask-icon', href='/safari-pinned-tab.svg', color='#ecdc2c')
+		meta(name='msapplication-TileColor', content='#9f00a7')
+		meta(name='theme-color', content='#ffffff')
+		link(rel='stylesheet', type='text/css', href='https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:900|IBM+Plex+Sans:400,400i,700,700i')
+		link(rel='stylesheet', type='text/css', href='/css/normalize.css')
+		link(rel='stylesheet', type='text/css', href='/css/basscss.min.css')
+		link(rel='stylesheet', type='text/css', href='/css/main.css')
+	body.px2
+		.max-width-3.mx-auto!= content
+		script(type='text/javascript', src='/js/scrollreveal.min.js')
+		script(type='text/javascript').
+			ScrollReveal().reveal('.reveal');
+

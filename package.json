@@ -1,0 +1,15 @@
+{
+  "name": "czycha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "czycha",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "eleventy --input src --output public",
+    "watch": "yarn build --serve --port 2048"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.3.3"
+  }
+}

@@ -1,0 +1,22 @@
+.reveal
+	header.mt3.px3.pt3.pb1.flex.flex-wrap.items-baseline.bg-green
+		h1.m0.title.flex-auto czycha*
+		.subtitle.h6 * no, it doesn't mean anything
+	.container.px3.pb3.pt1
+		p.
+			My name is #[span.callout-word James Anthony Bruno] and I make and design things for the web. I have experience in Drupal, Node.js, Ruby, React/Preact, and more. Currently, I work as an #[span.callout-word Interactive Designer/Developer Associate] with the #[span.callout-word Minnesota Timberwolves &amp; Lynx].
+		p.
+			Check me out on #[a(href='https://github.com/czycha', target="_blank") GitHub], #[a(href='https://www.linkedin.com/in/jamesanthonybruno/', target="_blank") LinkedIn], and #[a(href='https://medium.com/@czycha', target="_blank") Medium].
+.container.mt3.p3.reveal
+	h2.h1.m0 Highlighted projects
+.project-grid.sm-flex.flex-wrap.justify-between.items-stretch
+	each project in projects
+		.project-item.container.reveal
+			.project-header.px3.pt4.pb2(class={'has-bg': project.background}, style=(project.background ? "background-image: linear-gradient(to bottom, transparent 0%, rgba(4, 6, 6, 0.55) 100%), url('" + project.background + "')" : false))
+				h3.m0 #{project.title}
+			.p3
+				p.mt0 !{project.description}
+				ul.list-reset.mb0.h5
+					each link, index in project.links
+						li.inline-block.mt1(class={'mr1': (index !== project.links.length - 1)})
+							a(href=link.href, target="_blank") !{link.title}
