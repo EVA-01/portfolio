@@ -37,6 +37,17 @@
 			]
 		},
 		{
+			"background": "img/playoff-central-header.png",
+			"title": "Playoff Central",
+			"description": "In 2018, the Minnesota Timberwolves made the playoffs for the first time since 2004. I co-developed a <span class=\"callout-word\">Playoff Central</span> page which uses Preact to display statistics and live game tracking. Design is by <a href=\"https://samflood.com/\" target=\"_blank\">Sam Flood</a>.",
+			"links": [
+				{
+					"title": "Playoff Central",
+					"href": "http://www.timberwolves.com/playoffs/2018"
+				}
+			]
+		},
+		{
 			"background": false,
 			"title": "Nilbog",
 			"description": "<span class=\"callout-word\">Nilbog</span> started out as a \"what-if\" experiment. It uses mutation observers to revert DOM manipulation on a page. Its only real application is ad-blocking.",
